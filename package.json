@@ -1,0 +1,36 @@
+{
+    "name": "jap-wrapper",
+    "version": "0.0.1",
+    "description": "A JavaScript wrapper for Just Another Panel (JAP) API.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "tsc --watch",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/siyosu/jap-wrapper.git"
+    },
+    "keywords": [
+        "jap",
+        "justanotherpanel",
+        "api wrapper"
+    ],
+    "author": "siyosu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/siyosu/jap-wrapper/issues"
+    },
+    "homepage": "https://github.com/siyosu/jap-wrapper#readme",
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}
